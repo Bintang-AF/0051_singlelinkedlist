@@ -20,7 +20,7 @@ public :
         START = NULL;
     }
 
-    void addnote()
+    void addnode()
     {
         int nim;
         cout << "\nMasukkan nomor mahasiswa: ";
@@ -122,5 +122,26 @@ int main ()
     linkedlist mhs;
     int nim;
     char ch;
-    
+
+    do
+    {
+        cout << "menu"<< endl;
+        cout << "1. Menambah data kedalam list"<< endl;
+        cout << "2. Menghapus data dari dalam list"<< endl;
+        cout << "3. Menampilkan semua data didalam list"<< endl;
+        cout << "4. Mencari data dalam list"<< endl;
+        cout << "5. Keluar"<< endl;
+        cout << endl
+            << "Masukkan pilihan (1-5): ";
+        cin >> ch;
+        switch (ch)
+        {
+            case '1':
+            {
+                mhs.addnode();
+                break;
+
+            }
+        }
+    }
 }
