@@ -116,3 +116,11 @@ public :
         }
     }
 };
+
+int main ()
+{
+    linkedlist mhs;
+    int nim;
+    char ch;
+    
+}
